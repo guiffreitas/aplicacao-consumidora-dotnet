@@ -16,7 +16,7 @@ O passo a passo de cadastros e configurações na plataforma Entra ID e na API s
 - Microsoft.Identity.Client
 - Microsoft Entra ID
 
-## Pré-requisitosa
+## Pré-requisitos
 
 - .NET 8 SDK
 - IDE (Visual Studio, Visual Studio Code, etc.)
