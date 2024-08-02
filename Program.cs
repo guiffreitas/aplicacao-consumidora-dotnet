@@ -7,6 +7,8 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddHttpClient("ApiServidora", c => c.BaseAddress = new System.Uri("https://localhost:44300/"));
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
